@@ -6,7 +6,9 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
 use App\Models\PasswordReset;
-use App\Models\User;
+use App\Models\Teacher;
+use App\Models\Student;
+
 
 class Reset_PasswordController extends Controller
 {
